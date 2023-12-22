@@ -5,9 +5,7 @@
 
 Использование:
 
-Введи код **clang++ -std=c++17 -Wall -o slavprog.uit slavprog.cpp** или **g++ -std=c++17 -Wall -o slavprog.uit slavprog.cpp**
-
-Потом введи: **./slavprog.uit**
+Введи код **make** а потом **make run**
 
 Пока только ещё работает на Линэксе. Поддержка для Виндоуса ещё следует!
 
@@ -15,8 +13,6 @@ Dit is een zelfgeschreven C++ programma die Gregoriaanse datums omzet in de Slav
 
 Gebruik:
 
-Voer in **clang++ -std=c++17 -Wall -o slavprog.uit slavprog.cpp** of **g++ -std=c++17 -Wall -o slavprog.uit slavprog.cpp**
-
-Daarna: **./slavprog.uit**
+Voer in **make** en daarna **make run**
 
 Werkt momenteel alleen op Linux. Windows-ondersteuning komt nog!
