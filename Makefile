@@ -1,11 +1,8 @@
-run:
-	g++ -std=c++17 -Wall -o slavprog.uit slavprog.cpp
-	
-runclang:
+install:
 	clang++ -std=c++17 -Wall -o slavprog.uit slavprog.cpp
-	
-rungcc:
-	gcc -std=c++17 -Wall -o slavprog.uit slavprog.cpp
+
+run:
+	./slavprog.uit
 
 clean: 
 	rm slavprog.uit
