@@ -12,6 +12,7 @@
 Если Вы на Виндоусе, введи код: **g++ -std=c++17 -Wall -o slavprogWINDOWS.exe slavprogWINDOWS.cpp**, а потом **slavprogWINDOWS.exe**  
 Для это необходимо иметь программу **g++**. Если это у Вас нет, посещайте https://www.msys2.org/ чтоб скачать и загрузить.  
 
+**< Nederlands >**  
 Dit is een zelfgeschreven C++ programma die Gregoriaanse datums omzet in de Slavische datums, zoals die in gebruik was in Rusland voordat Peter de Eerste deze verving door de Juliaanse kalender. Dit programma is een poging om deze prachtige oude kalender terug te brengen in het collectieve bewustzijn van mensen.  
 
 Gebruik:  
