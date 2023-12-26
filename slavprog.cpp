@@ -642,12 +642,6 @@ SDatum verkrijgSGeboortedatum()
 	return datum;
 }
 
-Drager<string> chertog(SDatum d)
-{
-	Drager<string> lijst;
-	return lijst;
-}
-
 bool geldigGetal(string getal)
 {
 	for(unsigned int i = 0; i < getal.size(); i++)
