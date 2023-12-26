@@ -82,7 +82,7 @@ bool EindigtMet(std::string lijn, std::string argument)
 {
 	if(argument.size() > lijn.size()) { return false; }
 	argument = Omdraaien(argument);
-	for(long int i = lijn.size()-1, j = 0; i > lijn.size() -1 -argument.size(); i--, j++)
+	for(unsigned long int i = lijn.size()-1, j = 0; i > lijn.size() -1 -argument.size(); i--, j++)
 		{ if(argument[j] != lijn[i]) { return false; } }
 	return true;
 }

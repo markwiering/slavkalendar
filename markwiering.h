@@ -1,7 +1,7 @@
 #include <cstdlib>
 #include <stdio.h>
 #include <unistd.h>
-#define herhaal(x) for(unsigned int i = 0; i < x; i++)
+#define herhaal(x) for(int i = 0; i < x; i++)
 #define herhaalc(x, c) for(unsigned int c = 0; c < x; c++)
 #define loop(x) for(unsigned int i = 0; i < x.size(); i++)
 #define loopc(x, c) for(unsigned int c = 0; c < x.size(); c++)

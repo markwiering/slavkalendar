@@ -26,7 +26,7 @@ struct Paar
 			if(lijn[i] != scheidingsteken) { a += lijn[i]; }
 			else { scheidingsplek = i+1; break; }
 		}
-		for(int i = scheidingsplek; i < lijn.size(); i++) { b += lijn[i]; }
+		for(unsigned int i = scheidingsplek; i < lijn.size(); i++) { b += lijn[i]; }
 	}
 	
 	string a, b;
@@ -819,7 +819,7 @@ void Hoofdmenu()
 		sb.close(); goto HOOFDMENU; }
 	else if(ZitHetErin(keuze, "ы") || keuze == "s")
 	{
-		int verwijderen = 0;
+		unsigned int verwijderen = 0;
 		cout << "Введите номер, чтоб удалить: ";
 		cin >> verwijderen;
 		if(cin.fail() || verwijderen < 1 || verwijderen > personen.grootte())
@@ -836,7 +836,7 @@ void Hoofdmenu()
 	else if(ZitHetErin(keuze, "в") || keuze == "d") { return; }
 	else if(!geldigGetal(keuze)) { goto HOOFDMENU; }
 	
-	int nkeuze = stoi64(keuze);
+	unsigned int nkeuze = stoi64(keuze);
 	if(nkeuze >= 1 && nkeuze <= personen.grootte()) { AllesUitrekenen(personen[nkeuze-1]); }
 	
 	goto HOOFDMENU;
