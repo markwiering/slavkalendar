@@ -5,20 +5,20 @@
 
 Использование:
 
-Введи код **make** а потом **make run**
-Если у Вас **clang++** не установлено, введите **make gcc** а потом **make run**.
-Чтобы убрать прогресс, введите **make clean** или **make opschonen**
+Введи код **make** а потом **make run**  
+Если у Вас **clang++** не установлено, введите **make gcc** а потом **make run**.  
+Чтобы убрать прогресс, введите **make clean** или **make opschonen**  
 
-Если Вы на Виндоусе, введи код: **g++ -std=c++17 -Wall -o slavprogWINDOWS.exe slavprogWINDOWS.cpp**, а потом **slavprogWINDOWS.exe**
-Для это необходимо иметь программу **g++**. Если это у Вас нет, посещайте https://www.msys2.org/ чтоб скачать и загрузить.
+Если Вы на Виндоусе, введи код: **g++ -std=c++17 -Wall -o slavprogWINDOWS.exe slavprogWINDOWS.cpp**, а потом **slavprogWINDOWS.exe**  
+Для это необходимо иметь программу **g++**. Если это у Вас нет, посещайте https://www.msys2.org/ чтоб скачать и загрузить.  
 
-Dit is een zelfgeschreven C++ programma die Gregoriaanse datums omzet in de Slavische datums, zoals die in gebruik was in Rusland voordat Peter de Eerste deze verving door de Juliaanse kalender. Dit programma is een poging om deze prachtige oude kalender terug te brengen in het collectieve bewustzijn van mensen.
+Dit is een zelfgeschreven C++ programma die Gregoriaanse datums omzet in de Slavische datums, zoals die in gebruik was in Rusland voordat Peter de Eerste deze verving door de Juliaanse kalender. Dit programma is een poging om deze prachtige oude kalender terug te brengen in het collectieve bewustzijn van mensen.  
 
-Gebruik:
+Gebruik:  
 
-Voer in **make** en daarna **make run**
-Als bij jou **clang++** niet geïnstalleerd staat, voer dan **make gcc** in en daarna **make run**.
-Om het uitvoerbare bestand te verwijderen, voer in **make opschonen** of **make clean**
+Voer in **make** en daarna **make run**  
+Als bij jou **clang++** niet geïnstalleerd staat, voer dan **make gcc** in en daarna **make run**.  
+Om het uitvoerbare bestand te verwijderen, voer in **make opschonen** of **make clean**  
 
-Als jij Windows gebruikt, voer dan in: **g++ -std=c++17 -Wall -o slavprogWINDOWS.exe slavprogWINDOWS.cpp**, en daarna **slavprogWINDOWS.exe**
-Hiervoor moet wel **g++** geïnstalleerd zijn. Dat kun jij binnenhalen op https://www.msys2.org/
+Als jij Windows gebruikt, voer dan in: **g++ -std=c++17 -Wall -o slavprogWINDOWS.exe slavprogWINDOWS.cpp**, en daarna **slavprogWINDOWS.exe**  
+Hiervoor moet wel **g++** geïnstalleerd zijn. Dat kun jij binnenhalen op https://www.msys2.org/  
