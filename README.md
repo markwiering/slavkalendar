@@ -5,7 +5,7 @@
 
 Использование:
 
-Введи код **make** а потом **make run**  
+Введи код **make** а потом **make run** или **make draai**  
 Если у Вас **clang++** не установлено, введите **make gcc** а потом **make run**.  
 Чтобы убрать прогресс, введите **make clean** или **make opschonen**  
 
@@ -17,7 +17,7 @@ Dit is een zelfgeschreven C++ programma die Gregoriaanse datums omzet in de Slav
 
 Gebruik:  
 
-Voer in **make** en daarna **make run**  
+Voer in **make** en daarna **make run** of **make draai**    
 Als bij jou **clang++** niet geïnstalleerd staat, voer dan **make gcc** in en daarna **make run**.  
 Om het uitvoerbare bestand te verwijderen, voer in **make opschonen** of **make clean**  
 
